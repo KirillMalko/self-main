@@ -2,6 +2,7 @@
 body {
     color: #ffffff;
     background-co: rgb(2, 12, 24);
+    overflow-x:hidden;
 
 }
 
