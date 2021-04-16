@@ -1,0 +1,264 @@
+
+body {
+    color: #ffffff;
+    background-co: rgb(2, 12, 24);
+
+}
+
+body img {
+    max-width: 100%;
+}
+
+.hero {
+    background: rgb(2, 12, 24) no-repeat 0 20%;
+    background-size: 100% auto;
+    background-position: center top;
+    padding: 150px 0 200px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.hero h1 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.45);
+    letter-spacing: -1px;
+    margin-top: 10px;
+    font-weight: 200;
+}
+
+.hero-intro {
+    position: absolute;
+    top: 499px;
+    z-index: 10;
+}
+
+.hero-pencil {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.description{
+    margin-top: 50px;
+}
+
+.hero-art {
+    position: relative;
+    z-index: 0;
+    text-align: center;
+    margin-top: -120px;
+}
+
+.first-logo {
+    width: 308px;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .hero {
+
+        background-size: 150% auto;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .hero-intro {
+        position: absolute;
+        top: 280px;
+        z-index: 10;
+
+    }
+}
+.title{
+    font-family: 'Rubik One', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    background: linear-gradient(60deg, #0B2349 23%, #a655bb 76%, #000000 30%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+    margin: 20px auto;
+}
+.section {
+    position: relative;
+    padding: 180px 0;
+}
+
+.section h2 {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 42px;
+    margin-bottom: 10px;
+}
+
+.process h3 {
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+
+@media only screen and (max-width: 767px){
+
+
+    .section {
+        position: relative;
+        padding: 140px 0;
+    }
+    .timeline:after {
+        content: '';
+        position: absolute;
+        z-index: 3;
+        /*width: 4px;
+        /*background: rgba(255, 255, 255, 0.2);*/
+        top: 0;
+        left: 50%;
+        bottom: 0;
+        margin-left: -2px;
+    }
+
+}
+
+.experience {
+    z-index: 2;
+
+    background: #2962f5;
+    color: #fff;
+    clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 92%);
+}
+
+.experience h2 {
+    color: rgba(255, 255, 255, 0.35);
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .experience-cbsi img {
+        position: relative;
+        z-index: 10;
+
+
+    }
+}
+
+
+.who-intro {
+    text-align: center;
+}
+
+
+.who {
+
+    background-color: rgb(2, 12, 24);
+}
+
+
+.who img {
+    position: relative;
+    z-index: 10;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.who H2 {
+    color: rgba(255, 255, 255, 0.45);
+}
+
+
+.strong {
+    font-weight: 800;
+}
+
+
+a {
+    color: #1283ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1fcd71;
+}
+
+.user-foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+    margin-left: 40px;
+    border-radius: 100%;
+}
+
+.icons {
+    width: 300px;
+    display: flex;
+    margin-left: 40%;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.love {
+    color: #f23a3a;
+}
+
+.git {
+    margin-top: 5px;
+    color: #ffffff;
+    background: #fff;
+    height: 35px;
+    border: 1px solid white;
+}
+.video-about{
+    border-radius: 10px;
+    box-shadow: 0 5px 90px 3px #ff4b00;
+    width: 65%;
+    height: 720px;
+   }
+@media  (max-width: 1500px) {
+    .video-about {
+       height: 400px;
+
+
+    }
+}
+@media  (max-width: 768px) {
+    .video-about {
+        height: 275px;
+
+
+    }
+}
+
+::-webkit-scrollbar {
+    width: 15px; /* ширина для вертикального скролла */
+    height: 8px; /* высота для горизонтального скролла */
+    background: linear-gradient(45deg, #000000 90%, #9400c4);
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: radial-gradient(#0117a5, #000000 80%, #656);
+    border-radius: 8em;
+    box-shadow: inset 1px 1px 10px #f3faf7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #253861;
+}
+
+/* Стрелки */
+
